@@ -1,0 +1,55 @@
+body{
+    display:flex;
+    
+}
+.container{
+    display:flex;
+    width: 760px;
+    height: 760px;
+    flex-wrap:wrap;
+    border:none;
+    justify-content:center;
+
+
+}
+
+div{
+    border-style: solid;
+    border-color:black;
+    border-width:1px;
+}
+.side_panel{
+    border:none;
+    margin: 25px;
+}
+
+.ask{
+    border:none;
+}
+
+.slidecontainer{
+    width: 250px;
+    border:none;
+}
+
+.slider{
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 25px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+#filled{
+    background-color: black;
+}
+
+#empty{
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+}
