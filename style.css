@@ -18,10 +18,24 @@ div{
     border-color:black;
     border-width:1px;
 }
-.side_panel{
-    border:none;
-    margin: 25px;
+.side{
+    display: flex;
+    border: none;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
 }
+.side_panel{
+    border:solid black;
+    margin: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
 
 .ask{
     border:none;
@@ -50,5 +64,16 @@ div{
 
 .box_white{
     background-color:white;
+}
+
+.slida{
+    text-align: center;
+    border: none;  
+    font-size: 24px; 
+}
+
+.demo{
+    border: none;
+    font-size: 24px;
 }
 
