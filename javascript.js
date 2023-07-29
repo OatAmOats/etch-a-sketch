@@ -22,14 +22,24 @@ grid_create = function(val){
         for(let i = 1; i <= side_length; i++){
             let div = document.createElement("div");
             
-            div.classList.add('box');
-  
+            div.classList.add('box_white');
             div.style.height = `${(container_size/side_length)-2}px`;
             div.style.width = `${(container_size/side_length)-2}px`;
             
             container.appendChild(div);
+
+            
         }
     }
+    boxes = container.childNodes;
+    console.log(boxes);
+
+    boxes.forEach(box =>
+        box.addEventListener('click', function(e){
+            box.classList.toggle('box_black');
+            box.classList.toggle('box_white');
+            console.log('hmmm');
+        }))
     
 }
 

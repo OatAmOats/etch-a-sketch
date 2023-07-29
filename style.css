@@ -44,12 +44,11 @@ div{
     transition: opacity .2s;
 }
 
-#filled{
-    background-color: black;
+.box_black{
+    background-color:black;
 }
 
-#empty{
-    background-color: white;
-    border-style: solid;
-    border-color: black;
+.box_white{
+    background-color:white;
 }
+
